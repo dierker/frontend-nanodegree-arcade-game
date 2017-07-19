@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+# Synopsis
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This is a classic arcade game similar to frogger.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+# Installation
+
+No installation or setup is required. Simply open the ```index.html``` file in the browser and the game will begin to run.
+
+# Game instructions
+To play the game, simply run ```index.html```. Once the game loads, the timer will start automatically. Here are the basic rules:
+
+* Use the up, right, down, and left keys on your keyboard to move the player.
+* The goal is to reach the water 5 times (each time you touch the water you get a point) within the 15 second time period.
+* If an enemy hits the player, the game score will reset to 0. Note that the timer does not reset in this event.
+
+See how quickly you can get to 5 points!
+
+# License
+
+This project is licensed under the terms of the MIT license.
